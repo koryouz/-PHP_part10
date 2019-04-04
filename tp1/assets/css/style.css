@@ -1,0 +1,46 @@
+.container { 
+    background-color: grey;
+}
+
+ol {
+    list-style-type: none;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+textarea {
+    max-width: 100%;
+    border:  1px solid black;
+    resize: none !important;
+    display: block;
+}
+
+input {
+    display: block;
+    border:  1px solid black;
+    width: 80%;
+    height: 35px;
+}
+
+label  {
+    font-size: 22px;
+}
+
+.legend {
+    text-align: center; 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.submit {
+    margin: auto;
+    width: 42%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    border:  1px solid black;
+    height: 35px;
+}
